@@ -1,0 +1,3 @@
+#!/bin/bash
+DIR=$(cd "$(dirname "$0")"; pwd)
+DYLD_INSERT_LIBRARIES="$DIR"/../AirPort\ Utility\ 5.6.app/Contents/Frameworks/Apple80211.framework/Versions/A/Apple80211 "$DIR"/../AirPort\ Utility\ 5.6.app/Contents/MacOS/AirPort\ Utility
